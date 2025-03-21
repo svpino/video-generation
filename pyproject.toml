@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "moviepy>=2.1.2",
+    "moviepy>=1.0.3",
     "murf>=1.0.2",
     "openai>=1.66.3",
     "python-dotenv>=1.0.1",

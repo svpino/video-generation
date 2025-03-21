@@ -14,6 +14,7 @@ from openai import OpenAI
 
 load_dotenv()
 
+os.environ["OPIK_PROJECT_NAME"] = "video-generation"
 
 PROMPT = """
 You are an automated system that helps generate 8-second videos. The user will provide a
@@ -130,9 +131,13 @@ def generate_video(movie: list[dict]) -> str:
 
 def main():
     client = OpenAI()
+
     murf_client = Murf()
 
-    script = generate_script(client, "A bedtime story about a unicorn.")
+    script = generate_script(
+        client,
+        "A software developer who doesn't know what he is doing finds out that he is a wizard.",
+    )
 
     movie = []
 
