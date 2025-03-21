@@ -172,4 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-video.mp4
+
+*.mp4
