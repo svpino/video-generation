@@ -13,7 +13,7 @@ It uses the following technologies:
 Create a `.env` file in the root of the project and add the following variables:
 
 * `OPENAI_API_KEY`
-* `MURF_API_KEY` (Get your API key from [Murf AI API's page](https://murf.ai/api))
+* `MURF_API_KEY` (Get your API key from [Murf AI API's page](https://bit.ly/murfxsantiago))
 
 ## Running the project
 
